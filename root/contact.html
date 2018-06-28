@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Webpage using bootstrap</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+	<div>
+		<!--navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+	  		<a class="navbar-brand text-light" href="index.html"><i class="fas fa-underline"></i></a>
+	  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    		<span class="navbar-toggler-icon"></span>
+	  		</button>
+	  		<div class="collapse navbar-collapse" id="navbarContent">
+	    		<ul class="navbar-nav ml-auto">
+	      			<li class="nav-item active">
+	        			<a class="nav-link text-light" href="index.html">Home</a>
+	      			</li>
+	      			<li class="nav-item">
+				        <a class="nav-link text-light" href="about.html">About</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="skills.html">Skills</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="education.html">Education</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="projects.html">Projects</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="resume.html">Resume</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="gallery.html">Gallery</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="references.html">References</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-success" href="contact.html">Contact</a>
+				    </li>      			
+	    		</ul>
+	  		</div>
+		</nav>
+		<!--navbar ends -->
+		<!-- breadcrumb -->
+		<nav aria-label="breadcrumb">
+		  	<ol class="breadcrumb">
+		    	<li class="breadcrumb-item" aria-current="page"><a href="index.html"><i class="fas fa-underline"></i></a></li>
+		    	<li class="breadcrumb-item active" aria-current="page">Contact</li>
+		  	</ol>
+		</nav>
+		<!--body -->
+		<div id="my-skills">
+			<h3 class="text-center">Contact Form</h3>
+			<form>
+				<div class="form-group">
+					<label for="name-input">Username</label>
+					<input type="name" name="username" class="form-control form-control-lg" id="name-input" placeholder="Enter the username" required="required">
+				</div>
+				<div class="form-group">
+					<label for="email-input">Email Address</label>
+					<input type="email" name="email" class="form-control form-control-lg" id="email-input" aria-describedby="emailHelp" placeholder="jpt@example.com" required="required">
+					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+				</div>
+				<div class="form-group">
+					<label for="genderSelect">Select your Gender:</label>
+					<div class="form-check">
+					  	<input class="form-check-input" type="radio" name="gender" id="male" value="option1" required="required">
+					  	<label class="form-check-label" for="male">
+					    Male
+					  	</label>
+					</div>
+					<div class="form-check">
+					  	<input class="form-check-input" type="radio" name="gender" id="female" value="option2" required="required">
+					  	<label class="form-check-label" for="female">
+					    Female
+					  	</label>
+					</div>
+					<div class="form-check">
+					  	<input class="form-check-input" type="radio" name="gender" id="other" value="option3" required="required">
+					  	<label class="form-check-label" for="other">
+					    Other
+					  	</label>
+					</div>
+				</div>
+			    <div class="form-group">
+				    <label for="countrySelect">Select your Country:</label>
+				    <select class="form-control" id="countrySelect" required="required">
+				      	<option>Finland</option>
+				      	<option>Nepal</option>
+				      	<option>Italy</option>
+				      	<option>Switzerland</option>
+				      	<option>Other</option>
+				    </select>
+				</div>
+				<div class="form-group" style="margin-top: 10px;">
+					<button type="button" class="btn btn-primary" style="width: 40%;" data-toggle="modal" data-target="#submit1">Submit</button>
+					<div class="modal fade" id="submit1" tabindex="-1" role="dialog">
+			  			<div class="modal-dialog" role="document">
+			    			<div class="alert alert-success alert-dismissable">
+							    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+							    Success! your form was submitted successfully.
+							</div>
+			  			</div>
+					</div>
+					<button type="button" class="btn btn-primary" style="width: 40%; float: left; margin-right: 10px;" data-toggle="modal" data-target="#reset1">Reset</button>
+					<div class="modal fade" id="reset1" tabindex="-1" role="dialog">
+			  			<div class="modal-dialog" role="document">
+			    			<div class="alert alert-warning alert-dismissable">
+							    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+							   	Warning! you are about to reset your form.
+							</div>
+			  			</div>
+					</div>
+				</div>
+				<div id="social-media">
+					<h2>Contact me on Social Media</h2>
+					<a href="https://www.facebook.com/ujwal.shrestha.104" class="fa fa-facebook" target="_blank"></a>
+					<a href="https://www.instagram.com/ujwalss/" class="fa fa-instagram" target="_blank"></a>
+					<a href="https://twitter.com/ujwals1996" class="fa fa-twitter" target="_blank"></a>
+					<a href="https://github.com/ujstha" class="fa fa-github" target="_blank"></a>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<!--scripts -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		$(function () {
+		  $('[data-toggle="tooltip"]').tooltip()
+		});
+		$(document).ready(function(){
+		    $('button').click(function(){
+		        $('.alert').show()
+		    }) 
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Webpage using bootstrap</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+	<div>
+		<!--navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+	  		<a class="navbar-brand text-light" href="index.html"><i class="fas fa-underline"></i></a>
+	  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    		<span class="navbar-toggler-icon"></span>
+	  		</button>
+	  		<div class="collapse navbar-collapse" id="navbarContent">
+	    		<ul class="navbar-nav ml-auto">
+	      			<li class="nav-item active">
+	        			<a class="nav-link text-light" href="index.html">Home</a>
+	      			</li>
+	      			<li class="nav-item">
+				        <a class="nav-link text-light" href="about.html">About</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="skills.html">Skills</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-success" href="education.html">Education</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="projects.html">Projects</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="resume.html">Resume</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="gallery.html">Gallery</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="references.html">References</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="contact.html">Contact</a>
+				    </li>      			
+	    		</ul>
+	  		</div>
+		</nav>
+		<!--navbar ends -->
+		<!-- breadcrumb -->
+		<nav aria-label="breadcrumb">
+		  	<ol class="breadcrumb">
+		    	<li class="breadcrumb-item" aria-current="page"><a href="index.html"><i class="fas fa-underline"></i></a></li>
+		    	<li class="breadcrumb-item active" aria-current="page">Education</li>
+		  	</ol>
+		</nav>
+		<!--body -->
+		<div id="my-skills">
+			<h3 class="text-center">Educational Background</h3>
+			<div id="accordion" class="row">
+				<div class="col-xl-4 col-lg-6 col-md-6">
+					<div class="card">
+						<img class="card-img-top" data-toggle="collapse" data-target="#collapse1" src="../img/ouas.png">
+						<div class="card-header" id="header1">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse1">
+							<h5>Bachelor's Degree</h5>
+							</button>
+						</div>
+						<div id="collapse1" class="collapse" aria-labelledby="header1" data-parent="#accordion">
+							<div class="card-body">
+								<h4 class="cart-title">Oulu University of Applied Sciences</h4>
+								<p class="lead">Ongoing (2016 - Present)</p>
+								<p class="card-text">I am studying Bachelors of Engineering in Information Techonology at <a href="https://www.oamk.fi/" target="_blank">Oulu University of Applied Sciences.</a> which is located in Oulu city of Finland. I have completed 2 years of my course out of 4.</p> 
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-4 col-lg-6 col-md-6">
+					<div class="card">
+						<img class="card-img-top" data-toggle="collapse" data-target="#collapse2" src="../img/prasadi.png">
+						<div class="card-header" id="header2">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse2">
+							<h5>Higher Secondary Education Board</h5>
+							</button>
+						</div>
+						<div id="collapse2" class="collapse" aria-labelledby="header2" data-parent="#accordion">
+							<div class="card-body">
+								<h4 class="card-title">Prasadi Academy Higher Secondary School</h4>
+								<p class="lead">Completed (2013 - 2015)</p>
+								<p class="card-text">I completed my Senior year of high school (i.e. from 11 to 12) from <a href="https://www.prasadi.edu.np/" target="_blank">Prasadi Academy Higher Secondary School</a>, which is located at Lalitpur city of Kathmandu, with a major in Mathematics and Physics followed by Chemistry, Nepali and English subjects in year 2015. I attended this school from March 2013 to April 2015. I graduated from this school with an aggregate percentage of 68.5 %.</p>
+								<p class="card-text">We call "Intermediate of Science (I.Sc.)" to this level of education in my country, Nepal. Final examinations are taken by Higher Secondary Education Board (HSEB).</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-xl-4 col-lg-6 col-md-6">
+					<div class="card">
+						<img class="card-img-top" data-toggle="collapse" data-target="#collapse3" src="../img/paschimanchal.png">
+						<div class="card-header">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse3">
+								<h5>School Leaving Certificate (SLC)</h5>
+							</button>
+						</div>
+						<div id="collapse3" class="collapse" aria-labelledby="header3" data-parent="#accordion">
+							<div class="card-body">
+								<h4 class="card-title">Paschimanchal English High School</h4>
+								<p class="lead">Completed (2008 - 2013)</p>
+								<p class="card-text">I completed my Junior year of high school (i.e. from 8th to 10th) from <a href="https://www.facebook.com/pages/Paschimanchal-English-School/153693841501231" target="_blank">Paschimanchal English High School</a>, which is located at Bhairahawa city of Nepal, with a major in Science. I also completed my lower secondary education from this school (i.e. from 5th to 8th). Altogether, I attended this school from 2008 until 2013. I graduated with a percentage of 79.25 % in grade 10.</p>
+								<p class="card-text">Final examination is taken by Government of Nepal.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-xl-4 col-lg-6 col-md-6">
+					<div class="card">
+						<img class="card-img-top" data-toggle="collapse" data-target="#collapse4" src="../img/sunshine.png">
+						<div id="header4" class="card-header">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse4">
+								<h5>Primary Education</h5>
+							</button>
+						</div>
+						<div id="collapse4" class="collapse" aria-labelledby="header4" data-parent="#accordion">
+							<div class="card-body">
+								<h4 class="card-title">Sun Shine Boarding Higher Secondary School</h4>
+								<p class="lead">Completed (2001 - 2008)</p>
+								<p class="card-text">I completed my Primary education from <a href="https://www.facebook.com/ssbhss/" target="_blank">Sun Shine Boarding Higher Secondary School.</a> which is located at Bhairahawa city of Nepal. I studied there from Nursery to grade 5th.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--scripts -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		$(function () {
+		  $('[data-toggle="tooltip"]').tooltip()
+		})
+	</script>
+</body>
+</html>

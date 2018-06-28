@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Webpage using bootstrap</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+	<div>
+		<!--navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+	  		<a class="navbar-brand text-light" href="index.html"><i class="fas fa-underline"></i></a>
+	  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    		<span class="navbar-toggler-icon"></span>
+	  		</button>
+	  		<div class="collapse navbar-collapse" id="navbarContent">
+	    		<ul class="navbar-nav ml-auto">
+	      			<li class="nav-item active">
+	        			<a class="nav-link text-light" href="index.html">Home</a>
+	      			</li>
+	      			<li class="nav-item">
+				        <a class="nav-link text-light" href="about.html">About</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="skills.html">Skills</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="education.html">Education</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-success" href="projects.html">Projects</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="resume.html">Resume</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="gallery.html">Gallery</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="references.html">References</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="contact.html">Contact</a>
+				    </li>      			
+	    		</ul>
+	  		</div>
+		</nav>
+		<!--navbar ends -->
+		<!-- breadcrumb -->
+		<nav aria-label="breadcrumb">
+		  	<ol class="breadcrumb">
+		    	<li class="breadcrumb-item" aria-current="page"><a href="index.html"><i class="fas fa-underline"></i></a></li>
+		    	<li class="breadcrumb-item active" aria-current="page">Projects</li>
+		  	</ol>
+		</nav>
+		<!--body -->
+		<div id="my-skills">
+			<h3 class="text-center">My Projects</h3>
+			<div id="cards" class="row">
+				<!-- Card 1 -->
+				<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="card">
+						<img class="card-img-top" src="../img/project1.png">
+						<div class="card-body">
+							<div class="card-title">
+								<h4>NorthKino - Movie hall</h4>
+							</div>
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">
+								Learn More
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<!-- Modal 1 -->
+				<div class="modal fade" id="modal1" tabindex="-1" role="dialog">
+		  			<div class="modal-dialog" role="document">
+		    			<div class="modal-content">
+		      				<div class="modal-header">
+		        				<h5 class="modal-title">NorthKino - Movie hall</h5>
+		        				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          					<span aria-hidden="true">&times;</span>
+		        				</button>
+		      				</div>
+		      				<div class="modal-body">
+		        				<p>This project was done individually by me. It was assigned to me by my professor of Animation Course. This project is done using HTML, pure CSS and somewhat JavaScript. Sublime Text was used as a text editor.</p>
+		        				<p>The idea of the project was to develop a front-end webpage of a movie hall named NorthKino. The pages were to build with few animations and transitions and only using CSS and no other frameworks like Bootstrap or JQUERY or any of that sorts.</p>
+		        				<div id="social-media">
+		        					<p class="lead">Click the image below to visit my page for this project.</p>
+									<a href="https://ujstha.github.io/NorthKino/" class="fa fa-github" target="_blank"></a>
+								</div>
+		      				</div>
+		      				<div class="modal-footer">
+			        			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      				</div>
+		    			</div>
+		  			</div>
+				</div>
+
+				<!-- Card 2 -->
+				<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="card">
+						<img class="card-img-top" src="../img/project2.png">
+						<div class="card-body">
+							<div class="card-title">
+								<h4>Interactive Multimedia</h4>
+							</div>
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal2">
+								Learn More
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<!-- Modal 2 -->
+				<div class="modal fade" id="modal2" tabindex="-1" role="dialog">
+		  			<div class="modal-dialog" role="document">
+		    			<div class="modal-content">
+		      				<div class="modal-header">
+		        				<h5 class="modal-title">Interactive Multimedia</h5>
+		        				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          					<span aria-hidden="true">&times;</span>
+		        				</button>
+		      				</div>
+		      				<div class="modal-body">
+		        				<p>This project was also an individual project assigned by professor of Interactive Multimedia Programming course. The idea of the project was to develop webpages using HTML, CSS, AJAX, JavaScript, JSON. Sublime Text was used as a text editor and CSS grid as a responsive designing.</p>
+		        				<p>There were several labs assignment given to us weekly and had to prepare a webpage containing all the labs. There were 6 different labs with different ideas and use of AJAX and JavaScript.</p>
+		        				<div id="social-media">
+		        					<p class="lead">Click the image below to visit my page for this project.</p>
+									<a href="https://ujstha.github.io/IMP-Projects/" class="fa fa-github" target="_blank"></a>
+								</div>
+		      				</div>
+		      				<div class="modal-footer">
+			        			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      				</div>
+		    			</div>
+		  			</div>
+				</div>
+
+				<!-- Card 3 -->
+				<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="card">
+						<img class="card-img-top" src="../img/project3.png">
+						<div class="card-body">
+							<div class="card-title">
+								<h4>I Got Mojo Oy</h4>
+							</div>
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal3">
+								Learn More
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<!-- Modal 3 -->
+				<div class="modal fade" id="modal3" tabindex="-1" role="dialog">
+		  			<div class="modal-dialog" role="document">
+		    			<div class="modal-content">
+		      				<div class="modal-header">
+		        				<h5 class="modal-title">I Got Mojo Oy</h5>
+		        				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          					<span aria-hidden="true">&times;</span>
+		        				</button>
+		      				</div>
+		      				<div class="modal-body">
+		        				<p>This was a group project. There was four members in my group. The idea of the project was to come up with a business idea and execute it to mobile app or website or anything we like. Our group chose to go with the website. The business idea was to develop a web application version of show like America's Got Talent. Basically, a website where talented people could upload their audio or video in our site and we have the partnership with big production companies.</p>
+		        				<p>The website was full stack and built using ReactJS as a front-end, Firebase as back-end, Material-UI as designing and Visual Studio as a text editor, nodejs as an material installer and github as a version control system. There was no restriction for the material to use in this project.</p>
+		        				<div id="social-media">
+		        					<p class="lead">Click the image below to visit my github repository for this project.</p>
+									<a href="https://github.com/ujstha/I-GOT-MOJO" class="fa fa-github" target="_blank"></a>
+								</div>
+		      				</div>
+		      				<div class="modal-footer">
+			        			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      				</div>
+		    			</div>
+		  			</div>
+				</div>
+
+				<!-- Card 4 -->
+				<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="card">
+						<img class="card-img-top" src="../img/project4.png">
+						<div class="card-body">
+							<div class="card-title">
+								<h4>Modern Web Platform</h4>
+							</div>
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal4">
+								Learn More
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<!-- Modal 4 -->
+				<div class="modal fade" id="modal4" tabindex="-1" role="dialog">
+		  			<div class="modal-dialog" role="document">
+		    			<div class="modal-content">
+		      				<div class="modal-header">
+		        				<h5 class="modal-title">Modern Web Platform</h5>
+		        				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          					<span aria-hidden="true">&times;</span>
+		        				</button>
+		      				</div>
+		      				<div class="modal-body">
+		        				<p>I took this project as as summer course provided from Metropolia University of Applied Sciences. The idea of this project was to develop webpages using HTML, CSS and JavaScript. It contains my personal details, my CV and all.</p>
+		        				<p>No other frameworks were allowed to use.</p>
+		        				<div id="social-media">
+		        					<p class="lead">Click the image below to visit my page for this project.</p>
+									<a href="https://ujstha.github.io/Modern-Web/root/index.html" class="fa fa-github" target="_blank"></a>
+								</div>
+		      				</div>
+		      				<div class="modal-footer">
+			        			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      				</div>
+		    			</div>
+		  			</div>
+				</div>
+
+				<!-- Card 5 -->
+				<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="card">
+						<img class="card-img-top" src="../img/project5.png">
+						<div class="card-body">
+							<div class="card-title">
+								<h4>Game Up!</h4>
+							</div>
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal5">
+								Learn More
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<!-- Modal 5 -->
+				<div class="modal fade" id="modal5" tabindex="-1" role="dialog">
+		  			<div class="modal-dialog" role="document">
+		    			<div class="modal-content">
+		      				<div class="modal-header">
+		        				<h5 class="modal-title">Game Up!</h5>
+		        				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          					<span aria-hidden="true">&times;</span>
+		        				</button>
+		      				</div>
+		      				<div class="modal-body">
+		        				<p>This was a group project containing 4 persons in my group. This was assigned by our professor of User Interface Design course. This webpage was built using AJAX, JSON, PHP, HTML, etc. There was no restriction for the material to use in this project.</p>
+		        				<p>It was mainly focused on the user interface of the page. The testing and reports of the webpage were also taken in order to complete the project.</p>
+		        				<div id="social-media">
+		        					<p class="lead">Click the image below to visit my page for this project.</p>
+									<a href="http://www.students.oamk.fi/~t6shuj00/gameup-app/login.html" class="fa fa-github" target="_blank"></a>
+								</div>
+		      				</div>
+		      				<div class="modal-footer">
+			        			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      				</div>
+		    			</div>
+		  			</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!--scripts -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		$(function () {
+		  $('[data-toggle="tooltip"]').tooltip()
+		})
+	</script>
+</body>
+</html>

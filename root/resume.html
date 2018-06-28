@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Webpage using bootstrap</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+	<div>
+		<!--navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+	  		<a class="navbar-brand text-light" href="index.html"><i class="fas fa-underline"></i></a>
+	  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    		<span class="navbar-toggler-icon"></span>
+	  		</button>
+	  		<div class="collapse navbar-collapse" id="navbarContent">
+	    		<ul class="navbar-nav ml-auto">
+	      			<li class="nav-item active">
+	        			<a class="nav-link text-light" href="index.html">Home</a>
+	      			</li>
+	      			<li class="nav-item">
+				        <a class="nav-link text-light" href="about.html">About</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="skills.html">Skills</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="education.html">Education</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="projects.html">Projects</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-success" href="resume.html">Resume</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="gallery.html">Gallery</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="references.html">References</a>
+				    </li>
+				    <li class="nav-item">
+				        <a class="nav-link text-light" href="contact.html">Contact</a>
+				    </li>      			
+	    		</ul>
+	  		</div>
+		</nav>
+		<!--navbar ends -->
+		<!-- breadcrumb -->
+		<nav aria-label="breadcrumb">
+		  	<ol class="breadcrumb">
+		    	<li class="breadcrumb-item" aria-current="page"><a href="index.html"><i class="fas fa-underline"></i></a></li>
+		    	<li class="breadcrumb-item active" aria-current="page">Resume</li>
+		  	</ol>
+		</nav>
+		<!--body -->
+		<div id="my-skills">
+			<h3 class="text-center">My Resume</h3>
+			<div class="table-responsive">
+				<table class="table table-bordered table-light">
+					<thead class="thead thead-light">
+						<tr class="text-center">
+							<th scope="col">Degree</th>
+							<th scope="col">Education Level</th>
+							<th scope="col">University</th>
+							<th scope="col">Joined Year</th>
+							<th scope="col">Passed Year</th>
+							<th scope="col">Grade &frasl; Percentage</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>B.Eng. (Information Technology)</td>
+							<td>Bachelors</td>
+							<td>Oulu University of Applied Sciences, Finland</td>
+							<td>2016</td>
+							<td>Running....</td>
+							<td>3.48</td>
+						</tr>
+						<tr>
+							<td>ISc. (Intermediate of Science)</td>
+							<td>High School Diploma (Senior Year)</td>
+							<td>Higher Secondary Education Board, Nepal</td>
+							<td>2013</td>
+							<td>2015</td>
+							<td>68.5 &#37;</td>
+						</tr>
+						<tr>
+							<td>S.L.C. (School Leaving Certificate)</td>
+							<td>Secondary School Level (Junior Year)</td>
+							<td>Government of Nepal, Nepal</td>
+							<td>2001</td>
+							<td>2013</td>
+							<td>79.25 &#37;</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="btn-group mr-5" role="group">
+				<a href="../docs/C.V. - UJJAWAL.docx" target="_blank">
+					<button type="button" class="btn btn-primary">Download C.V. in Word format</button>
+				</a>
+			</div>
+			<div class="btn-group mr-5" role="group">
+				<a href="../docs/C.V. - UJJAWAL.pdf" target="_blank">
+					<button type="button" class="btn btn-primary">Download C.V. in PDF format</button>
+				</a>
+			</div>	
+		</div>
+	</div>
+
+	<!--scripts -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		$(function () {
+		  $('[data-toggle="tooltip"]').tooltip()
+		})
+	</script>
+</body>
+</html>
